@@ -24,5 +24,7 @@ Tools and Languages used:
 * Pandas
 * Numpy
 * matplotlib
+* Regular Exp (re)
+
 
 
