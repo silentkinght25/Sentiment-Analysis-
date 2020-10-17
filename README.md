@@ -30,7 +30,7 @@ After Web scrapping we get reviews.csv file.
     1. Load the raw data into python lists
 
 2. Data Visualisation
-    2. Count sentences in various ratings
+    1. Count sentences in various ratings
 
 3. Text preprocessing
 
