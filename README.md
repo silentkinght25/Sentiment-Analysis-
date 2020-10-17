@@ -45,7 +45,7 @@ After Web scrapping we get reviews.csv file.
     5. Removing stopwrods
 
 4. Create Training set and Test set
-    1. Train-Test split ratio is **80:20** 
+    1. Train-Test split ratio is **80 : 20** 
 
 5. Create Text Encoding
     1. Using bigram TF-IDF encoding 
