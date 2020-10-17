@@ -27,37 +27,42 @@ After Web scrapping we get reviews.csv file.
 
 ### Steps: ###
 1. Loading the data
-i. Load the raw data into python lists
+    1. Load the raw data into python lists
 
 2. Data Visualisation
-i. Count sentences in various ratings
+    2. Count sentences in various ratings
 
 3. Text preprocessing
-i. Convert to lower case
-ii. Remove punctuation  and special characters
-iii. Remove numbers and emojis
-iv. Remove whitespaces and newline characters
-v. Removing stopwrods
+
+    1. Convert to lower case
+
+    2. Remove punctuation  and special characters
+
+    3. Remove numbers and emojis
+
+    4. Remove whitespaces and newline characters
+
+    5. Removing stopwrods
 
 4. Create Training set and Test set
-i. Train-Test split ratio is 80:20 
+    1. Train-Test split ratio is **80:20** 
 
 5. Create Text Encoding
-i. Using bigram TF-IDF encoding 
+    1. Using bigram TF-IDF encoding 
 
 6. Fitting Classifier
-i. Using SGD classifier to fit on vectorised data
+    1. Using SGD classifier to fit on vectorised data
 
-Train dataset: 5781
+Train dataset: **5781**
 
-Test dataset: 1446
+Test dataset: **1446**
 
 ### Model Evaluation ### 
 The above implementation has **88% accuracy** for test data.
 
-F1 score for positive sentiment: 0.91
+F1 score for positive sentiment: **0.91**
 
-F1 score for negative sentiment: 0.79
+F1 score for negative sentiment: **0.79**
 
 ### Summary ###
 1. To further improve F1 score for negative sentiment use balanced dataset.
